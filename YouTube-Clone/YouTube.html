@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>YouTube.com</title>
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap"
+      rel="stylesheet">
+      <link rel="stylesheet" href="styles/general.css">
+      <link rel="stylesheet" href="styles/header.css">
+      <link rel="stylesheet" href="styles/video.css">
+      <link rel="stylesheet" href="styles/sidebar.css">
+  </head>
+  <body>
+    <header class="header">
+      <div class="left-section">
+        <img 
+          class="hamburger-menu"
+          src="icons/hamburger-menu.svg" 
+          alt="hamburger-menu">
+        <img 
+          class="youtube-logo"
+          src="icons/youtube-logo.svg"
+          alt="youtube-logo">
+      </div>
+      <div class="middle-section">
+        <input class="search-bar"
+          type="text"
+          placeholder="Search">
+        <button class="search-button">
+          <img
+            class="search-icon" 
+            src="icons/search.svg"
+            alt="search-button">
+            <div class="tooltip">Search</div>
+        </button>
+        <button class="voice-search-button">
+          <img src="icons/voice-search-icon.svg"
+            alt="voice-search-icon">
+            <div class="tooltip">Search with
+              your voice
+            </div>
+        </button>
+      </div>
+      <div class="right-section"> 
+        <div class="upload-icon-container">
+          <img
+            class="upload-icon"
+            src="icons/upload.svg"
+            alt="upload">
+          <div class="tooltip">Create</div>
+        </div>
+        <div class="youtube-apps-icon-container">
+          <img 
+          class="youtube-apps-icon"
+          src="icons/youtube-apps.svg" 
+          alt="youtube-apps">
+          <div class="tooltip">Apps</div>  
+        </div>
+        <div class="notifications-icon-container">
+          <img 
+            class="notifications-icon"
+            src="icons/notifications.svg" 
+            alt="notifications">
+          <div class="tooltip">Notifications</div>
+          <div class="notifications-count">3</div>
+        </div>
+        <div class="current-user-picture-container">
+          <img
+            class="current-user-picture" 
+            src="images/my-channel.jpeg" 
+            alt="profile-picture">
+          <div class="tooltip">Profile</div>
+        </div>
+      </div>
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link">
+        <img src="icons/home.svg">
+        <div>Home</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/explore.svg">
+        <div>Explore</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/subscriptions.svg">
+        <div>Subscriptions</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/originals.svg">
+        <div>Originals</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/youtube-music.svg">
+        <div>YouTube Music</div>
+      </div>
+      <div class="sidebar-link">
+        <img src="icons/library.svg">
+        <div>Library</div>
+      </div>
+    </nav>
+
+    <div class="video-grid">
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/aa.jpg">
+          <div class="video-time">14:20</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" 
+            src="images/raja.jpg" alt="channel-picture">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Talking Tech and AI with Google CEO
+              Sundar Pichai!
+            </p>
+            <p class="video-author">Marques Brownlee</p>
+            <p class="video-stats">
+              3.4M views &#183; 6 month ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/bb.jpg">
+          <div class="video-time">8:22</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" 
+            src="images/swati.jpg" alt="channel-picture">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Try Not to Laugh Challenge #9
+            </p>
+            <p class="video-author">Markiplier</p>
+            <p class="video-stats">
+              19M views &#183; 4 years ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/qq.jpg">
+          <div class="video-time">9:13</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" 
+            src="images/raja.jpg" alt="channel-picture">
+          </div>
+          <div class="video-info">
+            <p class="video-title">Crazy Tik Toks Taken
+              Moments Before DISASTER
+            </p>
+            <p class="video-author">SSSniperWolf</p>
+            <p class="video-stats">
+              12M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/ss.jpg">
+          <div class="video-time">6:31:23</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" 
+            src="images/swati.jpg" alt="channel-picture">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              HTML & CSS Full Course-Beginner to Pro 
+            </p>
+            <p class="video-author">SuperSimpleDev</p>
+            <p class="video-stats">
+              4.5M views &#183; 1 year ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/netfix.jpg">
+          <div class="video-time">2:01</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" 
+            src="images/raja.jpg" alt="channel-picture">
+          </div>
+          <div class="video-info">
+            <p class="video-title">EXTRACTION 2|Official Hindi Trailer|
+              Netflix India
+            </p>
+            <p class="video-author">Netflix India</p>
+            <p class="video-stats">
+              1.4M views &#183; 1 day ago</p>
+          </div>
+        </div>
+      </div>
+  
+      <div class="video-preview">
+        <div class="thumbnail-row">
+          <img class="thumbnail" src="images/joBhi.jpg">
+          <div class="video-time">5:26</div>
+        </div>
+        <div class="video-info-grid">
+          <div class="channel-picture">
+            <img class="profile-picture" 
+            src="images/swati.jpg" alt="channel-picture">
+          </div>
+          <div class="video-info">
+            <p class="video-title">
+              Jo Bhi Kasmein Khai Thi Humne-Raaz|Bipasha Basu
+            & Dino Morea|Alka Yagnik
+           </p>
+            <p class="video-author">90's Gaane</p>
+            <p class="video-stats">
+              23M views &#183; 4 months ago</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
